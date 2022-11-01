@@ -25,7 +25,7 @@ function btn_resumen(){
     document.getElementById('mostrar').value = "Total a pagar: $" + total;
     break;
     case 'Junior':
-    total = pagar - totalDescE;
+    total = pagar - totalDescJ;
     document.getElementById('mostrar').value = "Total a pagar: $" + total;
     break;
  }
