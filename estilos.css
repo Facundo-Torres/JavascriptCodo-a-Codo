@@ -1,0 +1,79 @@
+/*nav*/
+.nav-item{
+    font-size: 16px;
+
+}
+.navbar {
+   padding-right: 5%;
+   padding-left: 5%;
+}
+.banner {
+   
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("imagenes/ba1.jpg");
+    background-size: cover;
+    position: relative;
+
+}
+.text-white {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-white-rgb),var(--bs-text-opacity))!important;
+}
+h4 {
+    font-size: small;
+}
+/*conocer*/
+.conocer{
+    text-align: center;
+    padding-top: 15px;
+
+}
+/*Card oradores*/
+
+.card-text{
+    font-size: 12px;
+}
+.img-fluid{
+    max-width: 100%;
+}
+.octubre{
+    padding-top: 30px;
+}
+/*formulario*/
+.form{
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   }
+
+/*footer*/
+h6{
+    font-size: 12px;
+}
+
+
+/*------------------------------------------*/
+/* Tickets estilos*/
+.principal{
+    margin-top: 50px;
+}
+/*card1*/
+.venta {
+    text-align: center;
+}
+/*Form Ticket*/
+#total{
+    background-color: #cce5ff;
+}
+h2{
+font-size: 16px;
+font-weight: normal;
+}
+h3{
+    font-size: 16px;
+    font-weight: bold;
+}
